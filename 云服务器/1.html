@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>云来控制台</title>
+    <link rel="stylesheet" href="css/main.css"  type="text/css" />
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    <script>
+        window.onload=function()
+        {
+            var sH=window.screen.height;
+            document.getElementById('accordion').style.height=sH+'px';
+
+        }
+    </script>
+</head>
+<body>
+      <div id="big_box">
+              <div id="header">
+                  <ul>
+                      <li class="photo"><img src="images/logo.png" style="width:70px;height:40px;"></li>
+                      <li id="control"><a href="main.html">管理控制台</a></li>
+                      <li id="photo" class="photo"><img src="images/pic1.jpg"></li>
+                      <li>你好！欢迎登陆</li>
+                      <li  id="triangle">
+                          <ul  id="user">
+                              <li><a href="index(person).html">修改个人信息</a></li>
+                              <li><a href="password.html">修改账户密码</a></li>
+                          </ul>
+                      </li>
+                      <li id="off" >退出</li>
+
+                  </ul>
+              </div>
+
+
+              <!-- Contenedor -->
+              <ul id="accordion" class="accordion">
+                  <li>
+                      <div class="link"><i class="fa fa-paint-brush"></i>概况<i class="fa fa-chevron-down">&gt;</i></div>
+                      <ul class="submenu" >
+                          <li><a href="#">Photoshop</a></li>
+                          <li><a href="#">HTML</a></li>
+                          <li><a href="#">CSS</a></li>
+                          <li><a href="#">Maquetacion web</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="link"><i class="fa fa-code"></i>tomcat<i class="fa fa-chevron-down">&gt;</i></div>
+                      <ul class="submenu">
+                          <li><a href="#">Javascript</a></li>
+                          <li><a href="#">jQuery</a></li>
+                          <li><a href="#">Frameworks javascript</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="link"><i class="fa fa-mobile"></i>html<i class="fa fa-chevron-down">&gt;</i></div>
+                      <ul class="submenu">
+                          <li><a href="#">Tablets</a></li>
+                          <li><a href="#">Dispositivos mobiles</a></li>
+                          <li><a href="#">Medios de escritorio</a></li>
+                          <li><a href="#">Otros dispositivos</a></li>
+                      </ul>
+                  </li>
+                  <li><div class="link"><i class="fa fa-globe"></i>css<i class="fa fa-chevron-down">&gt;</i></div>
+                      <ul class="submenu">
+                          <li><a href="#">Google</a></li>
+                          <li><a href="#">Bing</a></li>
+                          <li><a href="#">Yahoo</a></li>
+                          <li><a href="#">Otros buscadores</a></li>
+                      </ul>
+                  </li>
+              </ul>
+
+              <div id="content">
+                  <div class="one">
+
+                      <p >
+                          <input type="image" src="images/shuaxin.png">
+                      </p>
+                      <p  style="margin-left:50px;">
+                          <input type="image" src="images/set.png">
+
+                      </p>
+                  </div>
+                  <table cellspacing="0px" cellpadding="0px">
+                      <thead>
+                        <tr>
+                            <th>11</th>
+                            <th>12</th>
+                            <th>13</th>
+                            <th>14</th>
+                            <th>15</th>
+                            <th>16</th>
+                            <th>17</th>
+                        </tr>
+                      </thead>
+                      <tr>
+                          <td>22</td>
+                          <td>2</td>
+                          <td>22</td>
+                          <td>22</td>
+                          <td>22</td>
+                          <td>22</td>
+                          <td>22</td>
+
+
+                      </tr>
+                  </table>
+                  
+              </div>
+      </div>
+
+     <script src='js/js_base.js'></script>
+
+      <script src="js/nav.js"></script>
+      <script  src="js/triangle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云平台--登陆</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+   <div id="logo">
+        <img src="images/logo.png">
+   </div>
+   <div id="big">
+       <img id="topbg" src="images/topbg.png" height="130px">
+       <p id="wordone">输入账号：</p>
+       <p id="wordtwo">输入密码：</p>
+       <input id="inputone" type="text">
+       <input id="inputtwo" type="password">
+       <input id="inputthree" type="button" value="登陆">
+       <div id="main"></div>
+   </div>
+</body>
+<script>
+    var pthree=document.getElementById('inputthree');
+    pthree.onmouseover=function()
+    {
+        pthree.style.backgroundColor="#3A9495";
+    }
+    pthree.onmouseout=function()
+    {
+        pthree.style.backgroundColor='#B8D3ED';
+    }
+</script>
+
+</html>

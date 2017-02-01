@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>云来控制台</title>
+    <link rel="stylesheet" href="css/main.css"  type="text/css" />
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+     <script>
+         window.onload=function()
+         {
+             var sH=window.screen.height;
+             document.getElementById('accordion').style.height=sH+'px';
+
+         }
+     </script>
+</head>
+<body>
+      <div id="big_box">
+              <div id="header">
+                  <ul>
+                      <li class="photo"><img src="images/logo.png" style="width:70px;height:40px;"></li>
+                      <li id="control"><a href="main.html">管理控制台</a></li>
+                      <li id="photo" class="photo"><img src="images/pic1.jpg"></li>
+                      <li>你好！欢迎登陆</li>
+                      <li  id="triangle">
+                          <ul  id="user">
+                              <li><a href="index(person).html">修改个人信息</a></li>
+                              <li><a href="password.html">修改账户密码</a></li>
+                          </ul>
+                      </li>
+                      <li id="off" >退出</li>
+
+                  </ul>
+              </div>
+
+
+              <!-- Contenedor -->
+              <ul id="accordion" class="accordion">
+                  <li>
+                      <div class="link"><i class="fa fa-paint-brush"></i>概况<i class="fa fa-chevron-down">&gt;</i></div>
+                      <ul class="submenu" >
+                          <li><a href="#">Photoshop</a></li>
+                          <li><a href="#">HTML</a></li>
+                          <li><a href="#">CSS</a></li>
+                          <li><a href="#">Maquetacion web</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="link"><i class="fa fa-code"></i>tomcat<i class="fa fa-chevron-down">&gt;</i></div>
+                      <ul class="submenu">
+                          <li><a href="#">Javascript</a></li>
+                          <li><a href="#">jQuery</a></li>
+                          <li><a href="#">Frameworks javascript</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="link"><i class="fa fa-mobile"></i>html<i class="fa fa-chevron-down">&gt;</i></div>
+                      <ul class="submenu">
+                          <li><a href="#">Tablets</a></li>
+                          <li><a href="#">Dispositivos mobiles</a></li>
+                          <li><a href="#">Medios de escritorio</a></li>
+                          <li><a href="#">Otros dispositivos</a></li>
+                      </ul>
+                  </li>
+                  <li><div class="link"><i class="fa fa-globe"></i>css<i class="fa fa-chevron-down">&gt;</i></div>
+                      <ul class="submenu">
+                          <li><a href="#">Google</a></li>
+                          <li><a href="#">Bing</a></li>
+                          <li><a href="#">Yahoo</a></li>
+                          <li><a href="#">Otros buscadores</a></li>
+                      </ul>
+                  </li>
+              </ul>
+
+
+              <div id="content">
+                  <div class="one">
+                    <p>您目前共有<span>8</span>台机器，
+                        其中<span>8</span>台运行中,<span>0</span>台关机状态
+
+                    </p>
+                    <p style="margin-left:400px;">
+                        <input type="image" src="images/shuaxin.png">
+                    </p>
+                      <p  style="margin-left:50px;">
+                          <input type="image" src="images/set.png">
+
+                      </p>
+                  </div>
+                  <div class="two">
+                      <p>我的资源</p>
+                      <div class="machine">
+                          <p>1号机器<button>on/off</button></p>
+                          <div></div>
+                      </div>
+                      <div class="machine clear_mr">
+
+                              <p>2号机器<button>on/off</button></p>
+                              <div></div>
+
+                      </div>
+                      <div class="machine">
+
+                              <p>3号机器<button>on/off</button></p>
+                              <div></div>
+
+                      </div>
+                      <div class="machine clear_mr">
+
+                              <p>4号机器<button>on/off</button></p>
+                              <div></div>
+
+                      </div>
+                      <div class="machine">
+
+                              <p>5号机器<button>on/off</button></p>
+                              <div></div>
+
+                      </div>
+                      <div class="machine clear_mr">
+
+                              <p>6号机器<button>on/off</button></p>
+                              <div></div>
+
+                      </div>
+                      <div class="machine">
+
+                              <p>7号机器<button>on/off</button></p>
+                              <div></div>
+
+                      </div>
+                      <div class="machine clear_mr">
+
+                              <p>8号机器<button>on/off</button></p>
+                              <div></div>
+
+                      </div>
+
+                  </div>
+              </div>
+      </div>
+
+     <script src='js/js_base.js'></script>
+
+      <script src="js/nav.js"></script>
+      <script  src="js/triangle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,309 @@
+html,body,div,ul,li,img,a,input,p{margin:0px;
+    padding:0px;
+    list-style:none;}
+
+/*导航*/
+#header{background:#FF6700;
+    width:100%;
+    min-width:1200px;
+    width:expression(document.body.clientWidth <= 1200? "1200px": "auto");
+    height:50px;
+    font-size:14px;
+
+}
+/*#header ul{margin-left:30px;}*/
+#header #control{
+    margin-right: 800px;
+    height: 50px;
+    width:120px;
+    text-align:center;
+    letter-spacing:3px;
+    font-size:18px;
+}
+#header #control a{display:block;
+    height: 50px;
+    width:120px;
+    text-decoration:none;
+    color: #fff;
+}
+#header #control a:hover{
+    background:#F19A27;
+    cursor:pointer;
+
+}
+
+#header ul li{
+    float: left;
+    height:50px;
+    line-height:50px;
+    color:#fff;}
+#photo img{width:40px;
+    height:40px;
+    border-radius:20px;
+    overflow: hidden;
+    margin-left:10px;
+    cursor: pointer;}
+.photo img{width:40px;
+    height:40px;
+    margin-top:5px;
+    margin-right:10px
+}
+
+.triangle{width:0px;
+    height:0px;
+    position: relative;
+    top: 20px;
+    margin-left:10px;
+    border-left: 9px solid transparent;
+    border-right:9px solid transparent;
+    border-top:10px solid #fff;
+    cursor: pointer;
+}
+.active_triangle{width:0px;
+    height:0px;
+    margin-left:10px;
+    border-left: 9px solid transparent;
+    border-right:9px solid transparent;
+    border-bottom:10px solid #fff;
+    position:relative;
+    bottom:20px;
+    cursor:pointer;
+}
+#user{
+    position:absolute;
+    top:70px;
+    right:0px;
+    width:100px;
+    height:100px;
+    display:none;
+    background:#FF6700;
+    z-index:100;
+}
+#user li{height:50px;
+    width:100px;
+    line-height:50px;
+    text-align:center;
+}
+#user a{color:#fff;
+    text-decoration: none;
+    height:50px;
+    width:100px;
+    display:block;
+}
+#user a:hover{background:#F19A27;}
+#off{margin-left:60px;
+    cursor: pointer}
+#off:hover{color:#F19A27;}
+
+/*菜单栏*/
+
+
+#mainleft{width:350px;height:500px;
+          float: left;
+          }
+
+#leftul{margin-left: 50px;
+        margin-top: 10px;
+       }
+#leftul li{width: 300px;
+         height:80px;
+         margin-top: 15px;
+         text-align: center;
+         font-size: 25px;
+         line-height: 80px;
+        }
+#leftul li a{display: block;
+            width: 300px;
+            height: 80px;
+            text-decoration:none;
+            color: #000;
+            }
+#leftul li a:hover{border-left: solid 2px #293038;}
+.bottom{border-bottom: solid 1px #B8D3ED;}
+
+
+
+/*个人信息界面*/
+
+
+#mainright{width:800px;height:571px;
+          border-left: solid 1px #B8D3ED;
+          float: left;
+          margin-left:80px; }
+
+
+#name{width: 700px;height:70px;;
+      margin: 30px auto 5px;}
+#name p{font-size: 20px;
+       font-weight: normal;
+       float: left;
+       margin-top:20px;
+       margin-left: 120px;
+       color: black;
+
+
+       }
+#name input{float: left;width: 400px;
+           height:50px;
+           margin-left: 10px;
+           margin-top:10px ;
+           display: block;
+           border: solid 1px #B8D3ED;
+
+           font-size: 30px;
+           text-align:left;
+           font-family: "宋体";
+           }
+#jobs{width: 700px;height:40px;
+
+      margin-top:0;
+      margin-left:50px;}
+#jobs p{font-size: 20px;
+    font-weight: normal;
+    float: left;
+    margin-top: 5px;
+    margin-left: 120px;
+    color: black;
+}
+#jobs select{float: left;width: 400px;
+    height:38px;
+    margin-left: 10px;
+    display: block;
+    border: solid 1px #B8D3ED;
+    font-size: 21px;
+    text-align:left;
+    font-family: "宋体";
+}
+
+#sexs{width: 700px;height:40px;
+
+    margin-top: 5px;
+    margin-left: 50px;}
+#sexs p{font-size: 20px;
+    font-weight: normal;
+    float: left;
+    margin-top: 5px;
+    margin-left: 120px;
+    color: black;
+}
+.inputs{width:131px;
+
+    margin-top: 10px;
+    margin-left: 2px;
+    float: left;}
+#inpp{margin-left: 8px;}
+
+#ages{width: 700px;height:40px;
+    margin: 5px auto 5px;}
+#ages p{font-size: 20px;
+    font-weight: normal;
+    float: left;
+    margin-top: 5px;
+    margin-left: 120px;
+    color: black;
+}
+#ages input{float: left;width: 400px;
+    height:38px;
+    margin-left: 10px;
+    display: block;
+    border: solid 1px #B8D3ED;
+    font-size: 30px;
+    text-align:left;
+    font-family: "宋体";
+}
+#motto{width: 700px;height:250px;
+
+    margin: 5px auto 5px;}
+#motto p{font-size: 20px;
+    font-weight: normal;
+    float: left;
+    margin-top: 2px;
+    margin-left: 80px;
+    color: black;
+}
+#motto input{float: left;width: 400px;
+    height:248px;
+    margin-left: 10px;
+    display: block;
+    border: solid 1px #B8D3ED;
+    font-size: 30px;
+    font-family: "宋体";
+
+}
+
+#rbtn{width: 190px;height: 40px;
+     text-align: center;
+     background-color: black;
+     border-radius: 5px 5px 5px 5px;
+     margin-top: 5px;
+     color:white;
+
+     margin-left: 23px;
+     font-size: 23px;
+     font-family: "楷体";
+     font-weight: bold;
+    border: none;
+    }
+#lbtn{margin-left: 220px;
+    width: 190px;height: 40px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 5px;
+    color: white;
+    font-size: 23px;
+    font-family: "楷体";
+    border: none;
+    font-weight: bold;}
+
+/*修改密码界面*/
+
+#nowpword{width: 600px;height:60px;
+
+         margin: 50px auto 0;}
+.words {float: left;
+           margin-left: 30px;}
+.keypic{width: 300px;height:40px;
+         border: solid 1px #B8D3ED;
+        float: left;
+        margin-left: 10px;
+        }
+.keypic img{display: block;float: left;}
+.keypic input{width: 250px;height: 36px;
+              float: left;
+              margin-left: 3px;
+              border: none;
+             }
+#newpword{width: 600px;height:60px;
+
+          margin: 20px auto 0;}
+#ensurepword{width: 600px;height:60px;
+            margin: 20px auto 0;}
+#ensure{width: 300px;height: 35px;
+          background-color: black;
+          margin-left: 208px;
+          margin-top: 20px;
+          border-radius: 3px 3px 3px 3px;
+          font-size: 19px;
+          color: white;
+          border: none;
+          list-style: none;
+         }
+
+#warning{width: 300px;height:20px;
+           font-size: 12px;
+           color: red;
+          margin-left: 209px;}
+#warnings{width: 300px;height:20px;
+    font-size: 12px;
+    color: red;
+    margin-left: 209px;}
+#warningss{width: 300px;height:20px;
+    font-size: 12px;
+    color: red;
+    margin-left: 209px;}
+
+
+/*上传头像*/
+
+
